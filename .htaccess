@@ -1,0 +1,7 @@
+Options -Indexes
+RewriteEngine On
+
+# Redirect semua ke public/index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ public/index.php?url=$1 [QSA,L]
