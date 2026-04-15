@@ -6,7 +6,10 @@ define('ROOT_PATH', dirname(__DIR__));
 // Start session securely
 ini_set('session.cookie_httponly', 1);
 ini_set('session.use_strict_mode', 1);
-session_name(SESSION_NAME ?? 'luminosity_sess');
+
+// Fix: Cek apakah konstanta SESSION_NAME sudah didefinisikan
+$sessionName = defined('SESSION_NAME') ? SESSION_NAME : 'luminosity_sess';
+session_name($sessionName);
 session_start();
 
 // Load configs

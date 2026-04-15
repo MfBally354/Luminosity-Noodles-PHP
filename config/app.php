@@ -2,7 +2,7 @@
 // config/app.php
 
 define('APP_NAME', 'Luminosity Noodles');
-define('APP_URL', 'http://localhost/luminosity-noodles/public');
+define('APP_URL', 'http://100.72.99.104:8080');
 define('APP_ENV', 'development'); // 'production' untuk live
 
 // Session config

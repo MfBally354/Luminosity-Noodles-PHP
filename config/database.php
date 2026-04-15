@@ -1,9 +1,9 @@
 <?php
 // config/database.php
 
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');       // Ganti sesuai MySQL user kamu
-define('DB_PASS', '');           // Ganti sesuai MySQL password kamu
+define('DB_HOST', '127.0.0.1');
+define('DB_USER', 'lumuser');       // Ganti sesuai MySQL user kamu
+define('DB_PASS', 'LumPass123!');           // Ganti sesuai MySQL password kamu
 define('DB_NAME', 'luminosity_noodles');
 define('DB_CHARSET', 'utf8mb4');
 
