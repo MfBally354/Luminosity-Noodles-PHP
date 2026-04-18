@@ -35,4 +35,3 @@
 </nav>
 
 <main class="main-content">
-  
